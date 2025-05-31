@@ -135,7 +135,7 @@ filter:brightness(75%)
 
 .header {
 background-color: #333;
-padding: 0.7em 1.875em 0.125em 1.875em;
+padding: 0.7em 1.875em 0.12em 1.875em;
 display: flex;
 align-items: center;
 }
