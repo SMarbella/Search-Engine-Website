@@ -173,15 +173,17 @@ margin-top: 6.25em;;
 /* Creates footer.*/
 .footer {
 background-color: #D5D3D5;
-color: black;
+color: var(--lgray);
 text-align: right;
 padding: 0.625em 1.875em 1.25em 0em;
 font-size: 0.875em;
 flex-shrink: 0;
+border: 0em solid #a1a1a1;
+border-top-width: 0.15em;
 }
 
 .footer a {
-    color: black;
+    color: #818181;
     margin: 0em 0.625em;
     text-decoration: none;
     font-weight: bold;
