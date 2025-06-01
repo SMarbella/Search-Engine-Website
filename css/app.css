@@ -1,147 +1,188 @@
-			img[Attributes] {
-			  			float: left;
-			  			vertical-align: top;
-			}
-			      img {
-			  		overflow-clip-margin: content-box;
-			  		overflow: clip;
-			}
+@media (max-height: 600px) {
+  main {
+    padding-bottom: 120px;
+  }
+}
 
-			      html, body {
-					height: 100%;
-			              margin: 0;
-			              display: flex;
-							flex-direction: column;
-					font-family: Arial, Helvetica, sans-serif;
-					background-image: url('https://knowsmore.wordpress.com/wp-content/uploads/2025/05/knowsmore-pattern.png');
-				    background-color: #D7F2E6;
-					background-repeat: repeat;
-				}
-			:root {
-				 	--search: 3.75em;
-				 	--lgray: #d5d3d5;
-				}
+img[Attributes] {
+        float: left;
+        vertical-align: top;
+}
+    img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
 
-			::selection{
-				    background:var(--lgray);
-				}
+    html, body {
+    height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://knowsmore.wordpress.com/wp-content/uploads/2025/05/knowsmore-pattern.png');
+    background-color: #D7F2E6;
+    background-repeat: repeat;
+}
+:root {
+    --search: 3.3em;
+    --lgray: #d5d3d5;
+}
 
-			.searchbar{
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    background: white;
-                    font-weight: bold;
-                    width: 45em;
-                    height: var(--search);
-                    border-radius: 0.625em;
-                    border: 0.125em solid var(--lgray);
-                    border-bottom-width: 0.25em;
-                    padding: 0 1em;
-				  }
+::selection{
+    background:var(--lgray);
+}
 
-			.searchbar>input{
-			         height:var(--search);
-			         margin:0;
-			         padding:0 0em;
-			         border:none;
-			         background:none;
-			         width:80%;
-			         font-size:24pt;
-			         color:#222;
-			         font-weight:bold;
-                     box-sizing: border-box;
-			         }
+.logo-img {
+  width: 37.5em; /* 600px / 16 = 37.5em */
+  height: 13.625em; /* 218px / 16 = 13.625em */
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
 
-			.searchbar>input:focus{
-			         border:none;
-			         outline:none;
-			         background:none
-			         }
+/* Creates searchbar*/
+.main-content {
+  max-width: 45em; /* match searchbar width */
+  margin: 5% auto;   /* center container on the page */
+  padding: 1em;
+}
 
-			.searchbar>img{
-			         pointer-events:none;
-			         height:var(--search)
-			         }
+.logo-img {
+  display: block;
+  width: 80%;         /* slightly smaller than the search bar */
+  height: auto;
+  max-width: 80%;     /* prevents it from growing too large */
+  margin-bottom: 1em;
+}
 
-			.sbutton{
-			         background:#81cea5;
-			         border:0.125em solid #86c2a7;
-			         font-size:18pt;
-			         font-weight:bold;
-			         color:white;
-			         padding: 0.25em 2.5em;
-			         border-radius: 0.5em;
-			         }
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-			.sbutton:active{
-			         filter:brightness(75%)
-			         }
+}
 
-			   .navbar {
-			     background-color: #333;
-			     padding: 1em 1.875em 0.125em 1.875em;
-			     display: flex;
-			     align-items: center;
-			   }
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    font-weight: bold;
+    width: 45em;
+    height: var(--search);
+    border-radius: 0.625em;
+    border: 0.125em solid var(--lgray);
+    border-bottom-width: 0.25em;
+    padding: 0 1em;
+    }
 
-			   .brand {
-			     display: flex;
-			     align-items: center;
-			     margin-right: auto;
-			   }
+.searchbar>input{
+        height:var(--search);
+        margin:0;
+        padding:0 0em;
+        border:none;
+        background:none;
+        width:80%;
+        font-size:24pt;
+        color:#222;
+        font-weight:bold;
+        box-sizing: border-box;
+        }
 
-			   .brand img {
-			     height: 2.5em;
-			     margin-right: 0.5em;
-			   }
+.searchbar>input:focus{
+        border:none;
+        outline:none;
+        background:none
+        }
 
-			   .brand span {
-			     color: white;
-			     font-weight: bold;
-			     font-size: 0.875em;
-			   }
+.searchbar>img{
+        pointer-events:none;
+        height:var(--search)
+        }
 
-			   .navbar a {
-			     color: white;
-			     text-decoration: none;
-			     margin-left: 1.25em;
-			     margin-top: 1.5625em;
-			     font-weight: bold;
-			   }
+/* Creates search button.*/
+.sbutton{
+        background:#81cea5;
+        border:0.125em solid #86c2a7;
+        font-size:18pt;
+        font-weight:bold;
+        color:white;
+        padding: 0.2em 2.5em;
+        border-radius: 0.5em;
+        margin-top: 1em;
+        }
 
-			   .navbar a:hover {
-			     text-decoration: underline;
-			   }
+.sbutton:active{
+        filter:brightness(75%)
+        }
 
-			.center {
-			  display: block;
-			  margin-left: auto;
-			  margin-right: auto;
-			  width: 50%;
-			}
+/* Creates header menu.*/
+.navbar {
+    background-color: #333;
+    padding: 1em 1.875em 0.125em 1.875em;
+    display: flex;
+    align-items: center;
+}
 
-			p {
-			  margin-top: 6.25em;;
-			}
+/* Aligns brand image on the left of the header menu.*/
+.brand {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
 
-			         /* Style the footer */
+.brand img {
+    height: 2.5em;
+    margin-right: 0.5em;
+}
 
-			.footer {
-			  background-color: #D5D3D5;
-			  color: black;
-			  text-align: right;
-			  padding: 0.625em 1.875em 1.25em 0em;
-			  font-size: 0.875em;
-			}
+.brand span {
+    color: white;
+    font-weight: bold;
+    font-size: 0.875em;
+}
 
-			   .footer a {
-			     color: black;
-			     margin: 0em 0.625em;
-			     text-decoration: none;
-			     font-weight: bold;
-			   }
+/* Creates header page link texts.*/
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1.25em;
+    margin-top: 1.5625em;
+    font-weight: bold;
+}
 
-			   .footer a:hover {
-			     text-decoration: underline;
-			   }
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+p {
+margin-top: 6.25em;;
+}
+
+/* Creates footer.*/
+.footer {
+background-color: #D5D3D5;
+color: black;
+text-align: right;
+padding: 0.625em 1.875em 1.25em 0em;
+font-size: 0.875em;
+flex-shrink: 0;
+}
+
+.footer a {
+    color: black;
+    margin: 0em 0.625em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

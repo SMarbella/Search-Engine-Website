@@ -22,19 +22,19 @@
       <a href="#">what’s new?</a> </div>
     <!-- Main content -->
     <main style="flex: 1;">
-      <div align="center">
-        <p> <a href="#"> <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/powered-by-knowsmore.png?w=768"
+      <div class="main-content">
+        <!-- Left-aligned image inside the container --> <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/powered-by-knowsmore.png"
 
-              alt="KnowsMore" style="width:768px;height:218px;" class="center">
-          </a> </p>
-        <div class="searchbar"> <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/searchicon.png"
+          alt="KnowsMore" class="logo-img">
+        <!-- Centered searchbar and button -->
+        <div class="search-container">
+          <div class="searchbar"> <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/searchicon.png"
 
-            align="left"> <input placeholder="Search" type="text"> <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/mic.png"
+              align="left"> <input placeholder="Search" type="text"> <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/mic.png"
 
-            align="right"> </div>
-        <!-- Move the button OUTSIDE the searchbar --> <br>
-        <br>
-        <button class="sbutton" onclick="announce()">SEARCH</button> </div>
+              align="right"> </div>
+          <button class="sbutton" onclick="announce()">SEARCH</button> </div>
+      </div>
     </main>
     <!-- Footer -->
     <footer class="footer">
