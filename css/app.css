@@ -1,202 +1,147 @@
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
+			img[Attributes] {
+			  			float: left;
+			  			vertical-align: top;
+			}
+			      img {
+			  		overflow-clip-margin: content-box;
+			  		overflow: clip;
+			}
 
-img[Attributes] {
-    float: left;
-    vertical-align: top;
-}
+			      html, body {
+					height: 100%;
+			              margin: 0;
+			              display: flex;
+							flex-direction: column;
+					font-family: Arial, Helvetica, sans-serif;
+					background-image: url('https://knowsmore.wordpress.com/wp-content/uploads/2025/05/knowsmore-pattern.png');
+				    background-color: #D7F2E6;
+					background-repeat: repeat;
+				}
+			:root {
+				 	--search: 3.75em;
+				 	--lgray: #d5d3d5;
+				}
 
-img {
-overflow-clip-margin: content-box;
-overflow: clip;
-}
+			::selection{
+				    background:var(--lgray);
+				}
 
-html, body {
-height: 100%;
-margin: 0;
-line-height: 1em;
-display: flex;
-flex-direction: column;
-font-family: Arial, Helvetica, sans-serif;
-background-image: url('https://knowsmore.wordpress.com/wp-content/uploads/2025/05/knowsmore-pattern.png');
-background-color: #D7F2E6;
-background-repeat: repeat;
-background-attachment: fixed;
-}
+			.searchbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  font-weight: bold;
+  width: 45em;
+  height: var(--search);
+  border-radius: 0.625em;
+  border: 0.125em solid var(--lgray);
+  border-bottom-width: 0.25em;
+  padding: 0 1em;
+				  }
 
-:root {
---search: 60px;
---lgray: #d5d3d5;
-}
+			.searchbar>input{
+			         height:var(--search);
+			         margin:0;
+			         padding:0 1em;
+			         border:none;
+			         background:none;
+			         width:80%;
+			         font-size:24pt;
+			         color:#222;
+			         font-weight:bold;
+                     box-sizing: border-box;
+			         }
 
-::selection{
-background:var(--lgray);
-}
+			.searchbar>input:focus{
+			         border:none;
+			         outline:none;
+			         background:none
+			         }
 
-.pure-img-responsive {
-    max-width: 100%;
-    height: auto;
-}
+			.searchbar>img{
+			         pointer-events:none;
+			         height:var(--search)
+			         }
 
-/*
- * -- LAYOUT STYLES --
- * These are some useful classes which I will need
- */
- .l-box {
-    padding: 1em;
-}
+			.sbutton{
+			         background:#81cea5;
+			         border:0.125em solid #86c2a7;
+			         font-size:18pt;
+			         font-weight:bold;
+			         color:white;
+			         padding: 0.25em 3em;
+			         border-radius: 0.625em;
+			         }
 
-.l-box-lrg {
-    padding: 2em;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
+			.sbutton:active{
+			         filter:brightness(75%)
+			         }
 
-.is-center {
-    text-align: center;
-}
+			   .navbar {
+			     background-color: #333;
+			     padding: 1em 1.875em 0.125em 1.875em;
+			     display: flex;
+			     align-items: center;
+			   }
 
+			   .brand {
+			     display: flex;
+			     align-items: center;
+			     margin-right: auto;
+			   }
 
+			   .brand img {
+			     height: 2.5em;
+			     margin-right: 0.5em;
+			   }
 
-/*
- * -- PURE FORM STYLES --
- * Style the form inputs and labels
- */
-.pure-form label {
-    margin: 1em 0 0;
-    font-weight: bold;
-    font-size: 100%;
-}
+			   .brand span {
+			     color: white;
+			     font-weight: bold;
+			     font-size: 0.875em;
+			   }
 
-.pure-form input[type] {
-    border: 2px solid #F9EADD;
-    box-shadow: none;
-    font-size: 100%;
-    width: 100%;
-    margin-bottom: 1em;
-}
+			   .navbar a {
+			     color: white;
+			     text-decoration: none;
+			     margin-left: 1.25em;
+			     margin-top: 1.5625em;
+			     font-weight: bold;
+			   }
 
-/*
- * -- PURE BUTTON STYLES --
- * I want my pure-button elements to look a little different
- */
-.pure-button{
-background:#81cea5;
-border:0.15em solid #86c2a7;
-font-size:18pt;
-font-weight:bold;
-color:white;
-padding:0.2em 2em;
-border-radius:0.5em
-}
+			   .navbar a:hover {
+			     text-decoration: underline;
+			   }
 
-.searchbar{
-background:white;
-font-weight:bold;
-width:720px;
-user-select:none;
-height:var(--search);
-border-radius:10px;
-border: 2px solid;
-border-color:var(--lgray);
-border-bottom-width:4px
-}
+			.center {
+			  display: block;
+			  margin-left: auto;
+			  margin-right: auto;
+			  width: 50%;
+			}
 
-.searchbar>input{
-height:var(--search);
-margin:0;
-padding:0;
-border:none;
-background:none;
-width:80%;
-font-size:24pt;
-color:#222;
-font-weight:bold
-}
+			p {
+			  margin-top: 6.25em;;
+			}
 
-.searchbar>input:focus{
-border:none;
-outline:none;
-background:none
-}
+			         /* Style the footer */
 
-.searchbar>img{
-pointer-events:none;
-height:var(--search)
-}
+			.footer {
+			  background-color: #D5D3D5;
+			  color: black;
+			  text-align: right;
+			  padding: 0.625em 1.875em 1.25em 0em;
+			  font-size: 0.875em;
+			}
 
+			   .footer a {
+			     color: black;
+			     margin: 0em 0.625em;
+			     text-decoration: none;
+			     font-weight: bold;
+			   }
 
-
-.sbutton:active{
-filter:brightness(75%)
-}
-
-.header {
-background-color: #333;
-padding: 0.7em 1.875em 0.12em 1.875em;
-display: flex;
-align-items: center;
-}
-
-.brand {
-display: flex;
-align-items: center;
-margin-right: auto;
-}
-
-.brand img {
-height: 40px;
-margin-right: 8px;
-}
-
-.brand span {
-color: white;
-font-weight: bold;
-font-size: 14px;
-}
-
-.header a {
-color: white;
-text-decoration: none;
-margin-left: 20px;
-margin-top: 25px;
-font-weight: bold;
-}
-
-.header a:hover {
-text-decoration: underline;
-}
-
-.center {
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
-}
-
-p {
-margin-top: 100px;
-}
-
-/* Style the footer */
-
-.footer {
-background-color: #D5D3D5;
-color: black;
-text-align: right;
-padding: 10px 30px 20px 0px;
-font-size: 14px;
-}
-
-.footer a {
-color: black;
-margin: 0px 10px;
-text-decoration: none;
-font-weight: bold;
-}
-
-.footer a:hover {
-text-decoration: underline;
-}
+			   .footer a:hover {
+			     text-decoration: underline;
+			   }

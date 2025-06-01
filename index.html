@@ -13,17 +13,17 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    <!-- Header -->
-    <div class="header">
+    <!-- Header menu -->
+    <div class="navbar">
       <div class="brand"> <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/cropped-embeddedimage-1-1.png"
 
           alt="Brand Logo"> </div>
       <a href="#">email</a> <a href="#">FAQ</a> <a href="#">accounts</a> <a href="#">update</a>
-      <a href="#">what's new?</a> </div>
+      <a href="#">what’s new?</a> </div>
     <!-- Main content -->
     <main style="flex: 1;">
       <div align="center">
-        <p> <a href="#"> <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/powered-by-knowsmore.png?w=768"
+        <p> <a href="https://knowsmore.nekoweb.org/"> <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/powered-by-knowsmore.png?w=768"
 
               alt="KnowsMore" style="width:768px;height:218px;" class="center">
           </a> </p>
@@ -32,16 +32,15 @@
             align="left"> <input placeholder="Search" type="text"> <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/mic.png"
 
             align="right"> </div>
+        <!-- Move the button OUTSIDE the searchbar --> <br>
         <br>
-        <button class="pure-button" onclick="{handleClick}">SEARCH</button> </div>
+        <button class="sbutton" onclick="announce()">SEARCH</button>
+      </div>
     </main>
     <!-- Footer -->
     <footer class="footer">
       <div class="footer-links"> <a href="#">Privacy</a> <a href="#">Terms</a>
         <a href="#">Settings</a> </div>
     </footer>
-    <!-- React entry point -->
-    <script type="module" src="./app.js"></script>
-    
   </body>
 </html>
