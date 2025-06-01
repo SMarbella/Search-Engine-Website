@@ -15,16 +15,17 @@
   <body>
     <!-- Header menu -->
     <div class="navbar">
-      <div class="brand"> <img src="images/headerlogo.png" alt="Brand Logo">
-      </div>
+      <div class="brand"> <img src="images/headerlogo.png" alt="Brand Logo"> </div>
       <a href="#">email</a> <a href="#">FAQ</a> <a href="#">accounts</a> <a href="#">update</a>
       <a href="#">what’s new?</a> </div>
     <!-- Main content -->
     <main style="flex: 1;">
       <div class="main-content">
-        <!-- Left-aligned image inside the container --> <img src="images/powered by knowsmore.png"
-
+        <!-- Left-aligned image inside the container -->
+        <a href="index.html">
+        <img src="images/powered%20by%20knowsmore.png"
           alt="KnowsMore" class="logo-img">
+        </a>
         <!-- Centered searchbar and button -->
         <div class="search-container">
           <div class="searchbar"> <img src="images/searchicon.png" align="left">
