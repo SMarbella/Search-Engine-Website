@@ -30,7 +30,8 @@
         <div class="search-container">
           <div class="searchbar"> <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/searchicon.png"
 
-              align="left"> <input placeholder="Search" type="text"> <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/mic.png"
+              align="left"> <input placeholder="Search" type="text">
+            <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/mic.png"
 
               align="right"> </div>
           <button class="sbutton" onclick="announce()">SEARCH</button> </div>

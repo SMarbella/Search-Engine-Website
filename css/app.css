@@ -119,7 +119,7 @@ img[Attributes] {
 /* Creates header menu.*/
 .navbar {
     background-color: #333;
-    padding: 1em 1.875em 0.125em 1.875em;
+    padding: 0.5em 1.875em 0.125em 1.875em;
     display: flex;
     align-items: center;
 }
@@ -132,7 +132,7 @@ img[Attributes] {
 }
 
 .brand img {
-    height: 2.5em;
+    height: 2em;
     margin-right: 0.5em;
 }
 
@@ -147,7 +147,7 @@ img[Attributes] {
     color: white;
     text-decoration: none;
     margin-left: 1.25em;
-    margin-top: 1.5625em;
+    margin-top: 1em;
     font-weight: bold;
 }
 
