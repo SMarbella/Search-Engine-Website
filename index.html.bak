@@ -15,26 +15,22 @@
   <body>
     <!-- Header menu -->
     <div class="navbar">
-      <div class="brand"> <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/cropped-embeddedimage-1-1.png"
-
-          alt="Brand Logo"> </div>
+      <div class="brand"> <img src="images/headerlogo.png" alt="Brand Logo">
+      </div>
       <a href="#">email</a> <a href="#">FAQ</a> <a href="#">accounts</a> <a href="#">update</a>
       <a href="#">what’s new?</a> </div>
     <!-- Main content -->
     <main style="flex: 1;">
       <div class="main-content">
-        <!-- Left-aligned image inside the container --> <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/powered-by-knowsmore.png"
+        <!-- Left-aligned image inside the container --> <img src="images/powered by knowsmore.png"
 
           alt="KnowsMore" class="logo-img">
         <!-- Centered searchbar and button -->
         <div class="search-container">
-         <div class="searchbar"> <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/searchicon.png"
-
-              align="left"> <input placeholder="Search" type="text">
-            <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/mic.png"
+          <div class="searchbar"> <img src="images/searchicon.png" align="left">
+            <input placeholder="Search" type="text"> <img src="images/mic.png"
 
               align="right"> </div>
-          <button class="sbutton" onclick="announce()">SEARCH</button> </div>
           <button class="sbutton" onclick="announce()">SEARCH</button> </div>
       </div>
     </main>
