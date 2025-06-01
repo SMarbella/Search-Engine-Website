@@ -95,10 +95,12 @@ img[Attributes] {
         background:none
         }
 
-.searchbar>img{
-        pointer-events:none;
-        height:var(--search)
-        }
+.searchbar > img {
+  pointer-events: none;
+  height: var(--search);
+  margin: 0;
+  padding: 0;
+}
 
 /* Creates search button.*/
 .sbutton{
