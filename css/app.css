@@ -155,6 +155,10 @@ img[Attributes] {
     text-decoration: underline;
 }
 
+.navbar a.active {
+    text-decoration: underline;
+}
+
 .center {
 display: block;
 margin-left: auto;
