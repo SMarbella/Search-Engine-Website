@@ -28,14 +28,14 @@
           alt="KnowsMore" class="logo-img">
         <!-- Centered searchbar and button -->
         <div class="search-container">
-<div class="searchbar">
-  <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/searchicon.png" alt="Search Icon">
-  <input placeholder="Search" type="text">
-  <div style="flex: 1;"></div> <!-- Spacer -->
-  <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/mic.png" alt="Mic Icon">
-</div>
-          <button class="sbutton" onclick="announce()">SEARCH</button>
-        </div>
+         <div class="searchbar"> <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/searchicon.png"
+
+              align="left"> <input placeholder="Search" type="text">
+            <img src="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/mic.png"
+
+              align="right"> </div>
+          <button class="sbutton" onclick="announce()">SEARCH</button> </div>
+          <button class="sbutton" onclick="announce()">SEARCH</button> </div>
       </div>
     </main>
     <!-- Footer -->
