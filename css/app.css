@@ -27,17 +27,17 @@
 				}
 
 			.searchbar{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: white;
-  font-weight: bold;
-  width: 45em;
-  height: var(--search);
-  border-radius: 0.625em;
-  border: 0.125em solid var(--lgray);
-  border-bottom-width: 0.25em;
-  padding: 0 1em;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background: white;
+                    font-weight: bold;
+                    width: 45em;
+                    height: var(--search);
+                    border-radius: 0.625em;
+                    border: 0.125em solid var(--lgray);
+                    border-bottom-width: 0.25em;
+                    padding: 0 1em;
 				  }
 
 			.searchbar>input{
