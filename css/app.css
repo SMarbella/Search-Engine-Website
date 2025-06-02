@@ -124,6 +124,7 @@ img[Attributes] {
     padding: 0.5em 1.875em 0.125em 1.875em;
     display: flex;
     align-items: center;
+
 }
 
 /* Aligns brand image on the left of the header menu.*/
@@ -136,6 +137,8 @@ img[Attributes] {
 .brand img {
     height: 2em;
     margin-right: 0.5em;
+    vertical-align: middle; /* or bottom */
+    display: inline-block;
 }
 
 .brand span {
@@ -148,8 +151,6 @@ img[Attributes] {
 .navbar a {
     color: white;
     text-decoration: none;
-    margin-left: 1.25em;
-    margin-top: 1em;
     font-weight: bold;
 }
 
@@ -161,6 +162,11 @@ img[Attributes] {
     text-decoration: underline;
 }
 
+.navbar p {
+  margin: 1em 0 0 0;
+  margin-left: 1.25em;
+}
+
 .center {
 display: block;
 margin-left: auto;
@@ -169,7 +175,7 @@ width: 50%;
 }
 
 p {
-margin-top: 6.25em;;
+margin-top: 6.25em;
 }
 
 /* Creates footer.*/
