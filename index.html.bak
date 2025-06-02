@@ -14,16 +14,20 @@
   </head>
   <body>
     <!-- Header menu -->
-    <div class="navbar">
-    <a href="index.html">
-      <div class="brand">
-      <a href="index.html">
-      <img src="images/headerlogo.png"
-            alt="Brand Logo">
-            </a>
-            </div>
-      <a href="#"><p>email</p></a> <a href="#"><p>FAQ</p></a> <a href="#"><p>accounts</p></a> <a href="#"><p>update</p></a>
-      <a href="#"><p>what’s new?</p></a> </div>
+    <div class="navbar"> <a href="index.html"> </a>
+      <div class="brand"><a href="index.html"> </a><a href="index.html">
+          <img src="images/headerlogo.png" alt="Brand Logo"> </a> </div>
+      <a href="#">
+        <p>email</p>
+      </a> <a href="#">
+        <p>FAQ</p>
+      </a> <a href="#">
+        <p>accounts</p>
+      </a> <a href="#">
+        <p>update</p>
+      </a> <a href="#">
+        <p>what’s new?</p>
+      </a> </div>
     <!-- Main content -->
     <main style="flex: 1;">
       <div class="main-content">
