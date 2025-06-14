@@ -12,20 +12,20 @@
     <link rel="stylesheet" href="/layouts/marketing/styles.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
-  <body>
-    <!-- Header menu -->
+  <body> <!-- Header menu -->
     <div class="navbar"> <a href="index.html"> </a>
-      <div class="brand"><a href="index.html"> </a><a href="index.html">
-          <img src="images/headerlogo.png" alt="Brand Logo"> </a> </div>
-      <a href="#">
+      <div class="brand"><a href="index.html"> </a><a href="index.html"> <img
+
+            src="images/headerlogo.png" alt="Brand Logo"> </a> </div>
+      <a href="email.html">
         <p>email</p>
-      </a> <a href="#">
+      </a> <a href="faq.html">
         <p>FAQ</p>
-      </a> <a href="#">
+      </a> <a href="accounts.html">
         <p>accounts</p>
-      </a> <a href="#">
+      </a> <a href="update.html">
         <p>update</p>
-      </a> <a href="#">
+      </a> <a href="whats-new.html">
         <p>what’s new?</p>
       </a> </div>
     <!-- Main content -->
