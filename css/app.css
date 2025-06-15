@@ -238,6 +238,10 @@ border-top-width: 0.15em;
     text-align: left;
 }
 
+.article ul li a {
+    color: #4D4854;
+}
+
 .content .border .img {
     text-align: center;
     word-spacing: 0.25em;
