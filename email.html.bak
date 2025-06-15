@@ -3,8 +3,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KnowsMore - Isn't that interesting?</title>
-    <link rel="icon" href="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/knowsmore-eyes-closed-e1748183789645.png"
-
+    <link rel="icon" href="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/knowsmore-eyes-closed-e1748183789645.png"
       sizes="16x16">
     <link rel="stylesheet" href="/css/pure/pure-min.css">
     <link rel="stylesheet" href="/css/pure/grids-responsive-min.css">
@@ -39,7 +38,8 @@
           <div class="article">
             <p style="max-width: 983px;"> I’m partial to vintage encyclopedias,
               myself. I’d be happy to provide recommendations, upon request!</p>
-            <p style="max-width: 983px;"><strong>Email: </strong></p>
+            <p style="max-width: 983px;"><strong>Email: </strong><span style="color:#D7F2E6">Knowsmore's
+                email is not available!</span></p>
           </div>
         </div>
       </div>

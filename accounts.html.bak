@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KnowsMore - Isn't that interesting?</title>
+    <link rel="icon" href="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/knowsmore-eyes-closed-e1748183789645.png"
+
+      sizes="16x16">
+    <link rel="stylesheet" href="/css/pure/pure-min.css">
+    <link rel="stylesheet" href="/css/pure/grids-responsive-min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="/layouts/marketing/styles.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <!-- Header menu -->
+    <div class="navbar"> <a href="index.html"> </a>
+      <div class="brand"><a href="index.html"> </a><a href="/Search-Engine-Website/index.html">
+          <img src="images/headerlogo.png" alt="Brand Logo"> </a> </div>
+      <a href="/Search-Engine-Website/email.html">
+        <p>email</p>
+      </a> <a href="/Search-Engine-Website/faq.html">
+        <p>FAQ</p>
+      </a> <a class="active" href="/Search-Engine-Website/accounts.html">
+        <p>accounts</p>
+      </a> <a href="/Search-Engine-Website/update.html">
+        <p>update</p>
+      </a> <a href="/Search-Engine-Website/whats-new.html">
+        <p>what’s new?</p>
+      </a> </div>
+    <!-- Main content -->
+    <main style="flex: 1;">
+      <div class="main-content">
+        <!-- Left-aligned image inside the container --> <a href="index.html">
+          <img src="images/powered%20by%20knowsmore.png" alt="KnowsMore" class="logo-img">
+        </a>
+        <!-- Article Body Section -->
+        <div class="content">
+          <div class="article">
+            <p style="max-width: 983px;"> KnowsMore is present on the following
+              social media:</p>
+            <ul>
+              <li>
+                <p><a href="https://archive.org/details/@knowsmore"><u>KnowsMore – Internet Archive</u></a></p>
+              </li>
+              <li>
+                <p> The Roman Empire had a vast trade networking
+                  system.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-links"> <a href="/Search-Engine-Website/privacy.html">Privacy</a>
+        <a href="/Search-Engine-Website/terms.html">Terms</a> <a href="/Search-Engine-Website/settings.html">Settings</a>
+      </div>
+    </footer>
+    <script>
+    function announce() {
+      alert("Search feature coming soon...");
+    }
+  </script>
+  </body>
+</html>
