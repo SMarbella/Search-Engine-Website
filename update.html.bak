@@ -3,7 +3,8 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KnowsMore - Isn't that interesting?</title>
-    <link rel="icon" href="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/knowsmore-eyes-closed-e1748183789645.png"
+    <link rel="icon" href="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/knowsmore-eyes-closed-e1748183789645.png"
+
       sizes="16x16">
     <link rel="stylesheet" href="/css/pure/pure-min.css">
     <link rel="stylesheet" href="/css/pure/grids-responsive-min.css">
@@ -46,16 +47,18 @@
               my next major wave of traffic later in the hour. One can only
               imagine what new insights it will bring!<strong><br>
               </strong></p>
+            <hr class="divider">
             <p style="max-width: 983px;"><strong>Wednesday, November 21, 2018<br>
               </strong>As of today, KnowsMore expects more incoming traffic due
               to cognitive surplus, meaning that we now find many people with
               excess time and free tools for collaboration. I have integrated
               various systems and algorithms into the search engine to improve
               search results. Web crawlers index and rank web pages based on
-              relevance to user queries. Equipped with the latest and most
-              innovative indexing technologies, I assure KnowsMore will greatly
-              enhance your search experience.<strong><br>
+              relevance to user queries. Equipped with the latest
+              and most innovative indexing technologies, I assure KnowsMore will
+              greatly enhance your search experience.<strong><br>
               </strong></p>
+            <hr class="divider">
             <p style="max-width: 983px;"><strong>Tuesday, June 21, 2016<br>
               </strong>With the integration of React Native, KnowsMore is proud
               to offer easier website access for mobile devices. React Native
@@ -64,6 +67,7 @@
               I’m expecting a massive influx of search traffic. I imagine there
               will be more new insights yet to come! Oh, how delightful!<strong><br>
               </strong></p>
+            <hr class="divider">
             <p style="max-width: 983px;"><strong>Thursday, September 4, 2008<br>
               </strong>Mobile phones are a popular amenity on the internet,
               aren’t they? Well, as I may say, this is just the beginning of a
@@ -77,6 +81,7 @@
               receive your results as accurately as if you were typing on the
               keyboard.<strong><br>
               </strong></p>
+            <hr class="divider">
             <p style="max-width: 983px;"><strong>Tuesday, July 1, 2003<br>
               </strong>Before Wi-Fi became increasingly common, there was less
               search traffic and fewer results to queries. Though, if worse
@@ -88,6 +93,7 @@
               engine optimization (SEO) into the search bar to drive traffic,
               giving them more relevant and accurate results.<strong><br>
               </strong></p>
+            <hr class="divider">
             <p style="max-width: 983px;"><strong>Wednesday, May 24, 1995</strong><br>
               KnowsMore proudly announces that the website is available to the
               public! KnowsMore is a search engine that supports natural
@@ -96,6 +102,7 @@
               web. Rest assured, I will provide the best answers to your
               queries, just like the fabled Library of Alexandria!<br>
             </p>
+            <hr class="divider">
             <p style="max-width: 983px;"><strong>Sunday, January 1, 1995</strong><br>
               Ah… The early history of the internet and the humble beginnings of
               this very web page. On a side note, the internet actually began in
