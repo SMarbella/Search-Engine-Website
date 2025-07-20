@@ -174,10 +174,6 @@ margin-right: auto;
 width: 50%;
 }
 
-p {
-margin-top: 6.25em;
-}
-
 /* Creates footer.*/
 .footer {
 background-color: #D5D3D5;
@@ -230,7 +226,7 @@ border-top-width: 0.15em;
 
 .content .article h2 {
     color: #4D4854;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .article ul li p {
@@ -285,4 +281,36 @@ hr.divider::after {
   font-size: 2em;
   line-height: 1;
   color: #4D4854;
+}
+
+/* Collapsible question and answers for faq page. */
+details {
+  max-width: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+  padding: 1em;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+details:hover {
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.1);
+}
+
+summary {
+  font-weight: bold;
+  font-size: 1.1em;
+  outline: none;
+  text-align: left;
+}
+
+details[open] {
+  background-color: #f9f9f9;
+}
+
+details p {
+  margin: 0.5em 0 0 0;
+  line-height: 1.5em;
 }
