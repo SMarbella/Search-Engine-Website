@@ -197,6 +197,10 @@ border-top-width: 0.15em;
     text-decoration: underline;
 }
 
+.footer a.active {
+  text-decoration: underline;
+}
+
 /* The article content and body. */
 .content {
     width: 100%;

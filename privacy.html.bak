@@ -1,0 +1,117 @@
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KnowsMore - Isn't that interesting?</title>
+    <link rel="icon" href="https://knowsmore.wordpress.com/wp-content/uploads/2025/05/knowsmore-eyes-closed-e1748183789645.png"
+
+      sizes="16x16">
+    <link rel="stylesheet" href="/css/pure/pure-min.css">
+    <link rel="stylesheet" href="/css/pure/grids-responsive-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="/layouts/marketing/styles.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <!-- Header menu -->
+    <div class="navbar"> <a href="index.html"> </a>
+      <div class="brand"><a href="index.html"> </a><a href="/Search-Engine-Website/index.html">
+          <img src="images/headerlogo.png" alt="Brand Logo"> </a> </div>
+      <a href="/Search-Engine-Website/email.html">
+        <p>email</p>
+      </a> <a href="/Search-Engine-Website/faq.html">
+        <p>FAQ</p>
+      </a> <a href="/Search-Engine-Website/accounts.html">
+        <p>accounts</p>
+      </a> <a href="/Search-Engine-Website/update.html">
+        <p>update</p>
+      </a> <a href="/Search-Engine-Website/whats-new.html">
+        <p>what’s new?</p>
+      </a> </div>
+    <!-- Main content -->
+    <main style="flex: 1;">
+      <div class="main-content">
+        <!-- Left-aligned image inside the container --> <a href="index.html">
+          <img src="images/powered%20by%20knowsmore.png" alt="KnowsMore" class="logo-img">
+        </a>
+        <!-- Article Body Section -->
+        <div class="content">
+          <div class="article">
+            <h1> Privacy Policy </h1>
+            <p style="max-width: 983px;"><strong>Effective Date: July 31, 2025<br>
+              </strong>At KnowsMore, your privacy is important to us. This
+              Privacy Policy explains what data we collect, how we use it, and
+              your rights as a user.</p>
+            <hr class="divider">
+            <p style="max-width: 983px;"><strong>Information We Collect<br>
+              </strong></p>
+            <ul>
+              <li>
+                <p><strong>Search Queries:</strong> KnowsMore may log anonymized
+                  search terms for analysis.</p>
+              </li>
+              <li>
+                <p> <strong>Device Info:</strong> Browser type, IP address
+                  (masked or truncated), operating system.</p>
+              </li>
+              <li>
+                <p><strong>Cookies:</strong> Used to remember preferences and
+                  provide basic functionality.</p>
+              </li>
+            </ul>
+            <hr class="divider">
+            <p style="max-width: 983px;"><strong>How We Use Your Data <br>
+              </strong></p>
+            <ul>
+              <li>
+                <p>Improve search quality and performance.</p>
+              </li>
+              <li>
+                <p>Analyze trends and usage patterns (anonymously).</p>
+              </li>
+              <li>
+                <p>Provide personalized or localized features (if enabled).</p>
+              </li>
+            </ul>
+            <hr class="divider">
+            <p style="max-width: 983px;"><strong>Data Sharing <br>
+              </strong></p>
+            <p style="max-width: 983px;">KnowsMore does <strong>not</strong>
+              sell, trade, or share your personal information with third
+              parties. KnowsMore may use third-party analytics services that
+              comply with strict privacy standards.</p>
+            <hr class="divider">
+            <p style="max-width: 983px;"><strong>Your Privacy Choices <br>
+              </strong></p>
+            <ul>
+              <li>
+                <p>Disable cookies in your browser.</p>
+              </li>
+              <li>
+                <p>Use private/incognito browsing mode.</p>
+              </li>
+              <li>
+                <p>Contact me to request data deletion (if applicable).</p>
+              </li>
+            </ul>
+            <hr class="divider">
+            <p style="max-width: 983px;">If you have questions about this
+              policy, please reach out to me <a href="Search-Engine-Website/email.html">here!</a></p>
+          </div>
+          <strong> </strong></div>
+        <strong> </strong></div>
+      <strong> </strong></main>
+    <strong>
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-links"> <a class="active" href="/Search-Engine-Website/privacy.html">Privacy</a>
+          <a href="/Search-Engine-Website/terms.html">Terms</a> <a href="/Search-Engine-Website/settings.html">Settings</a>
+        </div>
+      </footer>
+      <script>
+    function announce() {
+      alert("Search feature coming soon...");
+    }
+  </script> </strong>
+  </body>
+</html>
