@@ -318,3 +318,55 @@ details p {
   margin: 0.5em 0 0 0;
   line-height: 1.5em;
 }
+
+/* Settings parameters. */
+.container {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 2em;
+}
+
+.toggle-group label {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.toggle-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.toggle-group input[type="checkbox"],
+.toggle-group label {
+  vertical-align: middle;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+width: 100%;
+padding: 0.6em;
+margin-bottom: 1em;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+input[type="checkbox"] {
+  margin-right: 0.5em;
+}
+
+.btn-save {
+  background:#81cea5;
+  border:0.125em solid #86c2a7;
+  font-size:18pt;
+  font-weight:bold;
+  color:white;
+  padding: 0.2em 2.5em;
+  border-radius: 0.5em;
+  margin-top: 1em;
+}
+
+.btn-save:hover {
+  filter:brightness(75%)
+}
