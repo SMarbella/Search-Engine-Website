@@ -37,13 +37,14 @@
         <!-- Article Body Section -->
         <div class="content">
           <div class="article">
-            <h1> Privacy Policy </h1>
+            <h1> <strong>Privacy Policy </strong></h1>
             <p style="max-width: 983px;"><strong>Effective Date: July 31, 2025<br>
               </strong>At KnowsMore, your privacy is important to us. This
               Privacy Policy explains what data we collect, how we use it, and
               your rights as a user.</p>
             <hr class="divider">
-            <p style="max-width: 983px;"><strong>Information We Collect<br>
+            <p style="max-width: 983px;"><strong>Information We
+                Collect<br>
               </strong></p>
             <ul>
               <li>
@@ -96,7 +97,7 @@
             </ul>
             <hr class="divider">
             <p style="max-width: 983px;">If you have questions about this
-              policy, please reach out to me <a href="Search-Engine-Website/email.html">here!</a></p>
+              policy, please reach out to me <a href="/Search-Engine-Website/email.html">here!</a></p>
           </div>
           <strong> </strong></div>
         <strong> </strong></div>
