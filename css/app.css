@@ -337,24 +337,7 @@ details p {
   margin-bottom: 1em;
 }
 
-.toggle-group input[type="checkbox"],
-.toggle-group label {
-  vertical-align: middle;
-}
 
-input[type="text"],
-input[type="email"],
-select {
-width: 100%;
-padding: 0.6em;
-margin-bottom: 1em;
-border: 1px solid #ccc;
-border-radius: 4px;
-}
-
-input[type="checkbox"] {
-  margin-right: 0.5em;
-}
 
 .btn-save {
   background:#81cea5;
