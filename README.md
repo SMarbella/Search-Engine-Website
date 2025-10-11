@@ -8,7 +8,7 @@ The Internet is a large web of databases interconnected with one another. Search
 - **FAQ (frequently asked questions):** Includes detailed descriptions about the website's mascot, values, uses, information confidentiality, and a list of recommended sites.
 - **Accounts:** A set of mock social media handles of the company, showing the company's presence in other sites.
 - **Updates:** Company updates about the search engine tool. It is also an archive of the changes that happens to the mock website's company.
-- **What's New?:** The latest news or a list of feedbacks from users on ways to improve the website.
+- **What's New?:** The latest news or a list of feedbacks from users on ways to improve the website and how the mock company listens to feedback or welcomes room for improvement.
 
 The footer includes:
 - **Privacy:** A basic privacy policy explaining how the mock website deals with data.
