@@ -42,6 +42,16 @@ The following EXTRA features are implemented:
 - [x] User-friendliness is enhanced by telling the visitor which page they are on by showing the title in the header and the title's button a different color
 
 ## Video Demo
+Here are a couple of Videos / GIFs that demo all of the app's implemented features:
+<img src='https://github.com/SMarbella/Search-Engine-Website/blob/site/videos/Search.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://github.com/SMarbella/Search-Engine-Website/blob/site/videos/Update.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://github.com/SMarbella/Search-Engine-Website/blob/site/videos/FAQ.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://github.com/SMarbella/Search-Engine-Website/blob/site/videos/Privacy.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://github.com/SMarbella/Search-Engine-Website/blob/site/videos/Terms.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://github.com/SMarbella/Search-Engine-Website/blob/site/videos/Settings.gif' title='Video Demo' width='' alt='Video Demo' />
+
+The menu and footers automatically show the current page the user is on. The header title changes according to the menu.
+<img src='https://github.com/SMarbella/Search-Engine-Website/blob/site/videos/Pages.gif' title='Video Demo' width='' alt='Video Demo' />
 
 ## Notes
 This website shows my creative and artistic side in web development. I demonstrated my artistic talent through the decorations used to make the website visually appealing. The borders, titles, and website design came from my imagination to help visitors feel immersed in the scholarly search engine world. While designing the fan art for the website, I wanted to preserve the movie's aesthetics to enhance the look and feel of the search engine website. All pages, except for the search bar page, were not visible in the movie. They were created from scratch, expanding on how the search engine website would have looked if it was a real website.
