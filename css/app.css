@@ -33,6 +33,8 @@ img[Attributes] {
 }
 
 .logo-img {
+  max-width: 100%;
+	height: auto;
   width: 37.5em; /* 600px / 16 = 37.5em */
   height: 13.625em; /* 218px / 16 = 13.625em */
   display: block;
@@ -56,6 +58,8 @@ img[Attributes] {
 }
 
 .search-container {
+  max-width: 100%;
+	height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
