@@ -32,3 +32,7 @@ function SearchButton() {
 const domNode = document.getElementById('button');
 const root = createRoot(domNode);
 root.render(<SearchButton />);
+
+
+function toggleMenu() {
+    menu.classList.toggle('active');
