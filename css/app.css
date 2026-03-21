@@ -73,7 +73,7 @@ img[Attributes] {
   align-items: center;
   background: white;
   font-weight: bold;
-  width: 45em;
+  width: 100%;
   height: var(--search);
   border-radius: 0.625em;
   border: 0.125em solid var(--lgray);
