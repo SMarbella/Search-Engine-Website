@@ -34,7 +34,7 @@ img[Attributes] {
 
 .logo-img {
   max-width: 100%;
-	height: auto;
+  height: auto;
   width: 37.5em; /* 600px / 16 = 37.5em */
   height: 13.625em; /* 218px / 16 = 13.625em */
   display: block;
@@ -44,6 +44,8 @@ img[Attributes] {
 
 /* Creates searchbar*/
 .main-content {
+	max-width: 100%;
+	height: auto;
   max-width: 45em; /* match searchbar width */
   margin: 5% auto;   /* center container on the page */
   padding: 1em;
